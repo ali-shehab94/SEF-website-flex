@@ -156,8 +156,9 @@ p {
 }
 
 .section3 img {
-    width: 100%;
-    margin-top: 8%;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 7%;
 }
 
 .text-box2 {
@@ -165,7 +166,7 @@ p {
 }
 
 .artboard1 {
-    width: 50%;
+    width: 110%;
 }
 
 .artboard1 h1, h2 { 
@@ -182,5 +183,47 @@ p {
 }
 
 .psquare {
-    width: 50px;
+    display: block;
+    width: 90px;
+    padding: 40px;
+}
+
+.section4 {
+    width: 100%;
+    height: 100%;
+    background-color: #25e200;
+}
+
+.center-textbox {
+    text-align: center;
+    padding-top: 5%;
+    width: 70%;
+}
+
+.center-textbox h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.coloumn-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.courseL {
+    margin-left: 50%;
+    width: 65%;
+}
+
+.courseR {
+    width: 65%;
+}
+
+.center-textbox h2 {
+    color: black;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
